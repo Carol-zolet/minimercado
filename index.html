@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiniMercado Econômico</title>
+  <!-- Referência ao CSS personalizado -->
+  <link rel="stylesheet" href="src/css/style.css">
+  <!-- Referência ao JavaScript personalizado -->
+  <script src="src/js/script.js" defer></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="bg-success text-white text-center py-3">
+    <div class="container">
+      <img src="src/imagens/shopping-cart-front-side.jpg" alt="Logo do MiniMercado Econômico" class="img-fluid" style="max-width: 150px; height: auto;">
+      <h1>MiniMercado Econômico</h1>
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="produtos.html">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="servicos.html">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contato.html">Contato</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="sobre.html">Sobre Nós</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container my-5">
+    <section class="text-center mb-5">
+      <h2>Bem-vindo ao MiniMercado Econômico</h2>
+      <p>Encontre os melhores produtos e serviços com os melhores preços.</p>
+    </section>
+
+    <section>
+      <h2>Produtos em Destaque</h2>
+      <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="src/imagens/maca.png" class="d-block w-100" alt="Maçã">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Maçã - R$ 4,50/kg</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="src/imagens/banana.png" class="d-block w-100" alt="Banana">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Banana - R$ 3,00/kg</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="src/imagens/arrozbranco.webp" class="d-block w-100" alt="Arroz Branco">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Arroz Branco Tipo 1 - R$ 17,11/pacote</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Serviços Oferecidos</h2>
+      <ul>
+        <li><strong>Retirada no Local:</strong> Gratuito.</li>
+        <li><strong>Tele-entrega:</strong> R$ 5,00 (gratuita para compras acima de R$ 50,00).</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-success text-white text-center py-3">
+    <p>&copy; 2024 MiniMercado Econômico. Todos os direitos reservados.</p>
+    <p>Contato: contato@minimercadoeconomico.com | (51) 3320-3503</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
